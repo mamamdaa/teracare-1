@@ -1,5 +1,5 @@
 #For raspberry pi 4
-FROM --platform=linux/arm/v7 node:14.17.6
+FROM node:14.17.6
 
 # set the working direction
 WORKDIR /app
